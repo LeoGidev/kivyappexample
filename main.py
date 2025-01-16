@@ -30,4 +30,5 @@ class MainApp(App):
         scroll_view = ScrollView(size_hint_y=0.9)
         image_layout = GridLayout(cols=1, spacing=10, size_hint_y=None)
         image_layout.bind(minimum_height=image_layout.setter('height'))
-       
+
+        # Cargar imágenes y sus descripciones
