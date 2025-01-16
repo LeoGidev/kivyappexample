@@ -10,4 +10,4 @@ from PIL import Image as PILImage
 import os
 
 
-IMAGE_FOLDER = "./images"
+IMAGE_FOLDER = "C:\\Users\\Westnet\\Desktop\\imagenes elementos"
