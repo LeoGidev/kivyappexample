@@ -13,3 +13,8 @@ import os
 IMAGE_FOLDER = "C:\\Users\\Westnet\\Desktop\\imagenes elementos"
 
 class MainApp(App):
+    def build(self):
+        self.title = "Kivy Mobile App"
+
+        # Layout principal
+        root = BoxLayout(orientation="vertical")
