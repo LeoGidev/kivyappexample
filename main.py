@@ -35,3 +35,5 @@ class MainApp(App):
         for img_name in os.listdir(IMAGE_FOLDER):
             img_path = os.path.join(IMAGE_FOLDER, img_name)
             if os.path.isfile(img_path):
+                try:
+                    # Crear widget de imagen
