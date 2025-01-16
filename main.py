@@ -18,3 +18,6 @@ class MainApp(App):
 
         # Layout principal
         root = BoxLayout(orientation="vertical")
+
+        # Barra de tareas
+        
