@@ -33,3 +33,4 @@ class MainApp(App):
 
         # Cargar imágenes y sus descripciones
         for img_name in os.listdir(IMAGE_FOLDER):
+            img_path = os.path.join(IMAGE_FOLDER, img_name)
