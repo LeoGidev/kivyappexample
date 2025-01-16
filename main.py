@@ -20,4 +20,5 @@ class MainApp(App):
         root = BoxLayout(orientation="vertical")
 
         # Barra de tareas
+        top_bar = BoxLayout(size_hint_y=0.1, padding=10, spacing=10, background_color=[0.9, 0.3, 0.5, 1])
         
