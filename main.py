@@ -32,3 +32,4 @@ class MainApp(App):
         image_layout.bind(minimum_height=image_layout.setter('height'))
 
         # Cargar imágenes y sus descripciones
+        for img_name in os.listdir(IMAGE_FOLDER):
