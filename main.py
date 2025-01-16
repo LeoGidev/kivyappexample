@@ -25,3 +25,6 @@ class MainApp(App):
         search_button = Button(text="Buscar", size_hint_x=0.2)
         top_bar.add_widget(search_input)
         top_bar.add_widget(search_button)
+
+        # Contenedor de imágenes
+        scroll_view = ScrollView(size_hint_y=0.9)
