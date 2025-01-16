@@ -21,4 +21,5 @@ class MainApp(App):
 
         # Barra de tareas
         top_bar = BoxLayout(size_hint_y=0.1, padding=10, spacing=10, background_color=[0.9, 0.3, 0.5, 1])
-        
+        search_input = TextInput(hint_text="Buscar...", size_hint_x=0.8)
+        search_button = Button(text="Buscar", size_hint_x=0.2)
