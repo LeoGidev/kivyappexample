@@ -11,3 +11,5 @@ import os
 
 
 IMAGE_FOLDER = "C:\\Users\\Westnet\\Desktop\\imagenes elementos"
+
+class MainApp(App):
